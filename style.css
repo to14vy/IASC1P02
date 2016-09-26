@@ -1,0 +1,9 @@
+.greenText{ /*Makes text green and italic*/
+  color:green;
+  font-style:italic;
+}
+
+#firstHeader{ /*Makes text red and bold*/
+  color:red;
+  font-weight:bold;
+}

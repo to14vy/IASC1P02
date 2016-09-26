@@ -1,0 +1,13 @@
+#list{
+  color:green;
+  font-style:italic;
+}
+
+.red{
+  background-color: red;
+}
+
+.item{
+  display:inline;
+  font-size:30px;
+}
