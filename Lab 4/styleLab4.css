@@ -1,0 +1,22 @@
+#green{
+  background-color: green;
+}
+.greenbox{
+  margin: 0px;
+  border: green 1px dashed;
+  color:red;
+  padding: 5px;
+}
+.blackbox{
+  margin: 150px 20px 20px 150px;
+  border: black 5px solid;
+  padding: 20px 20px 0px 20px;
+}
+.img{
+  margin: 15px 0px 0px -20px;
+  border: orange 2px dashed;
+  padding: 5px;
+}
+body{
+  background-color:blue;
+}
