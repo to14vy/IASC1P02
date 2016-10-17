@@ -1,0 +1,31 @@
+#wrapper{
+  max-width: 10000px;
+  max-height: 10000px;
+  background-color: white;
+  margin:0 auto;
+}
+
+#header{
+  color: white;
+  font-weight: bold;
+  background-color: red;
+  height:75px;
+  width:1425px;
+  text-align: center;
+}
+
+#left{
+  color: white;
+  width: 1425px;
+  height: 600px;
+  background-color: green;
+  float:left;
+}
+
+#footer{
+  color: white;
+  background-color: blue;
+  height:75px;
+  width:1425px;
+  clear: both;
+}

@@ -1,0 +1,30 @@
+body{
+  background-color: green;
+}
+#wrapper{
+  background-color: green;
+  max-width: 10000;
+  max-height: 10000;
+}
+#content1{
+  background-color: blue;
+  width:300px;
+  height: 300px;
+  position:absolute;
+  left:15%;
+}
+#content2{
+  background-color: red;
+  width:300px;
+  height: 300px;
+  position:absolute;
+  right:15%;
+}
+#content3{
+  background-color: yellow;
+  width:300px;
+  height:300px;
+  margin:0 auto;
+  position: relative;
+  top:300px;
+}

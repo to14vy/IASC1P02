@@ -1,0 +1,48 @@
+body{
+  background-color: green;
+}
+
+#wrapper{
+  height: 800px;
+  width: 800px;
+  background-color: white;
+  margin:0 auto;
+}
+
+#header{
+  background-color: red;
+  height:100px;
+  width:800px;
+  text-align: center;
+}
+
+#navleft{
+  font-weight: bold;
+  background-color: pink;
+  height:100px;
+  width:550px;
+  float: right;
+}
+
+#navright{
+  font-weight: bold;
+  float: left;
+  background-color: orange;
+  height:100px;
+  width:250px;
+}
+
+#left{
+  font-weight: bold;
+  width: 800px;
+  height: 550px;
+  background-color: blue;
+  float:left;
+}
+#footer{
+  font-weight: bold;
+  background-color: yellow;
+  height:50px;
+  width:800px;
+  clear: both;
+}
