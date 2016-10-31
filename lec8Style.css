@@ -1,0 +1,17 @@
+.menu{
+  position: absolute;
+  width: 300px;
+  padding: 10px;
+  float:left;
+}
+
+.main{
+  position: absolute;
+  width: 500px;
+  padding-left: 250px;
+  float:right;
+}
+.text{text-align: center;}
+
+.title{
+}
