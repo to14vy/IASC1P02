@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+  <head>
+    <meta content="en-us" http-equiv="Content-Language" />
+
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <title>Assignment2</title>
+    <link rel="stylesheet" type="text/css" href="A2Style.css" />
+  </head>
+  <body>
+    <div>
+      <ul class="navcolor">
+        <li><a href="assign2.html">Home</a></li>
+        <li><a href="assign2Me.html">All About Me</a></li>
+        <li><a href="assign2Proj.html">My Projects</a></li>
+      </ul>
+    </div>
+    <a name = "top" />
+    <h1 class="head">Tokunbo Oyebolu</h1>
+    <h2>All About Me</h2>
+
+
+
+    <a href="#bottom"> Skip to the End </a>
+    <div>
+      <div class="center">
+        <img src="http://s.hswstatic.com/gif/how-to-donate-computer-1.jpg" alt="picture of an older model of a computer from the early 2000s" />
+      </div>
+      <p>My name is Tokunbo Oyebolu and I am a second-year Computer Science
+        Stundent at <a href="http://www.brocku.ca">Brock University</a> in Saint Catharines, ON. In 2004, my family
+        set up our first home computer system. As you can imagine, it was big,
+        bulky, not very attractive at first sight and definitely off limits to
+        the kids (one of which, of course, I was at the time) but it was also
+        a vision of what my future held for me.</p>
+    </div>
+    <div>
+      <p>At age ten, computers began to fascinate me. It was no longer just a
+        large electronic device, it was a portal to undiscovered territory, an
+        outlet for imagination and a new path to fun. It became a treat to get
+        to go back home and explore the capabilities of the contraption. Like
+        many children my age at that time, we only got about two hours a week on
+        average to spend with a computer at school so self-teaching was paramount
+        if you ever wanted to master the device and thus began the studying.</p>
+    </div>
+    <div>
+      <p>I would be on that computer for hours, going through all the applications
+        that interested me as well as those that didn't. I would practice any
+        small lessons we learned at school and expand upon them just because I
+        wanted to see how far I could go and how much I could impress my teachers.</p>
+      <p>The great thing about my experiences were that they were encouraged. My
+        father is a computer scientist so he was always into the next big thing in
+        technology and he loved my creativity.</p>
+
+      <p>Soon, I started incorporating elements of different subjects that I
+        would cover in school with what I learned to do with computers. My
+        earliest memory of this was writing stories and using Microsoft Word
+        clip art to add illustrations to my stories. I couldn't wait to impress
+        a publisher someday with my work, unfortunately my stories always happened
+        to be just a bit longer than my attention span so only a few
+        completed works made it into the harddrive. In my defense, Microsoft
+        clipart never seemed to have all of the exact images I needed but then
+        I discovered Google but that's a whole other story.</p>
+    </div>
+    <ol class="list">
+      <li>Creative and</li>
+      <li>Original</li>
+      <li>Man-Made</li>
+      <li>Project that's a</li>
+      <li>Unique</li>
+      <li>Technological</li>
+      <li>Expression of</li>
+      <li>Renown genius</li>
+    </ol>
+    <div>
+      <p>By highschool, I was taking my knowledge and testing it on a completley
+        different level. I had registered for my first computer science class.</p>
+    </div>
+    <div>
+      <p>I thought that I was really making history. I was creating <!--need a link
+        to Liesel presentation--> animated book presentions, getting extra credit
+        for using internet resources to assist my in my math projects but I had
+        never imagined that there was a whole other world to computers that (if I
+        had take the time to learn how to manuever it before) could have helped
+        me exponentially increase the amount of uncommon things I creatively
+        taught myself to do with comouters. Now I had the chance to learn and
+        was ready to soak it all in.</p>
+    </div>
+    <div>
+      <p>Fast forward a few great grades later and here I am, continuing my
+        journey of creative discovery at Brock U with an amazing group of students
+        preparing for their times to shine as well.</p>
+    </div>
+    <div>
+      <p>I don't know where my pursuit of a degree in Computer Science will take
+        me but I hope that I can take Computer Science new places before I get there.</p>
+    </div>
+
+    <a name = "bottom" />
+    <a href="#top"> Back to the Top </a>
+
+    <div>
+      <p class="foot">This is an IASC 1P02 Assignment. <em> And I hope I get a good mark!</em><a href="A2Style.css"> Check out my css! </a></p>
+      <img class="imgsize" src="wink.png" alt="winking emoticon" />
+    </div>
+
+  </body>
+</html>
