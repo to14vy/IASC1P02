@@ -1,0 +1,63 @@
+body{
+  height: 770px;
+  overflow: hidden;
+  background: #704F91;
+  background: -moz-linear-gradient(bottom, #9176AC, #9176AC,#BAA6CD,#704F91,#371658);
+  background: -o-linear-gradient(bottom, #9176AC, #9176AC,#BAA6CD,#704F91,#371658);
+  background: -webkit-linear-gradient(bottom, #9176AC, #9176AC,#BAA6CD,#704F91,#371658);
+  background: linear-gradient(bottom, #9176AC, #9176AC,#BAA6CD,#704F91,#371658);
+}
+/*source=http://www.w3schools.com/css/css3_gradients.asp*/
+
+
+p,h2,h3,h4,footer {
+  font-family: "arial","veranda",sans-serif;
+  text-align: center;
+  color:white;
+}
+
+#outputBold{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+fieldset{
+  font-family: "arial","veranda",sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  border-style:solid;
+  border-width:thick;
+  border-radius: 50px;
+  border-color: #402F74;
+  background-color: #9176AC;
+  padding: 10px;
+}
+
+button{
+  background-color: #402F74;
+  border: none;
+  color: white;
+  padding: 3px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+}
+
+div{
+  padding-top: 5px;
+  text-align: center;
+}
+
+button:hover{
+  background-color: #605192;
+}
+
+input{
+  font-size: 15px;
+}
+
+.footer{
+  position:absolute;
+  bottom: 10px;
+}

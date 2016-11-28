@@ -1,0 +1,45 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+  <head>
+  	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <link rel="icon" type="png" href="calculator-icon.png">
+  	<title>Assignment 3</title>
+    <!--source:http://www.iconarchive.com/show/small-n-flat-icons-by-paomedia/calculator-icon.html-->
+    <script type="text/javascript" src="assign3.js"></script>
+  	<link href="assign3.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+
+    <h2> Number Word Calculator </h2>
+    <h3> Welcome to the Number Word Calculator! <br />
+      With this calculator, you can add, subtract, multiply or divide any number
+      from +1 to +5.</h3>
+    <h4>But remember, this calculator only gives positive and negative integer results so choose your
+      operands and operators carefully!
+    </h4>
+
+  	<fieldset>
+      <input type="text" id="num1" name="Num1" placeholder="E.g. 'one' instead of '1'"></input>
+      <button type="button" name="add" onclick="addNum()">+</button>
+      <button type="button" name="min" onclick="subtract()">-</button>
+      <button type="button" name="mul" onclick="multiply()">*</button>
+      <button type="button" name="div" onclick="divide()">/</button>
+      <input type="text" id="num2"  name="Num2" placeholder="E.g. 'two' instead of '2'"></input>
+    </fieldset>
+    <div>
+      <button type="button" name="reset" onclick="reset()">RESET</button>
+      <button type="button" name="reset" onclick="random()">RANDOM</button>
+    </div>
+
+    <p id="outputBold"></p>
+    <p id="output" clas="output"> </p>
+
+    <footer class="footer"> Last assignment of IASC IP02 by Tokunbo Oyebolu. Thanks for a great course! </footer>
+
+  </body>
+
+</html>
