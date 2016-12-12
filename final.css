@@ -1,0 +1,189 @@
+/*Common CSS to all pages*/
+
+html{
+  height: 100%;
+}/*window size for index.html*/
+body{
+  background-color: #AF0067;*/
+  /*background-color: #ED98CA;*/
+  font-family: "Candara", "Verdana", sans-serif;
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}/*entire body common style*/
+/*The code above source is: http://stackoverflow.com/questions/2869212/css3-gradient-background-set-on-body-doesnt-stretch-but-instead-repeats*/
+
+/*Navigation*/
+ul {
+  list-style-type: none;
+  margin-left: 250px;
+  margin-right: 250px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #F51C9B;
+}
+li {
+  float: left;
+}
+li a {
+  text-align: center;
+  display: inline-block;
+  color: white;
+  height: 25px;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover{
+    background-color: #F44DAF;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h1{
+  font-size: 40px;
+} /*header1 resize*/
+h3{
+  padding-top: 10px;
+  font-size: 30px;
+}/*header3 resize*/
+
+div.content{
+  margin-left: 250px;
+  margin-right: 250px;
+  background-color: white;
+  margin-top: -15px;
+}/*position and background colour of content*/
+div{
+  align-items: center;
+  text-align: center;
+  font-family: "Candara", "Verdana", sans-serif;
+}
+div.list{
+  margin-top: -18px;
+} /*navigation position on window*/
+div.div{
+  margin-left:44%;
+}
+
+.msg{
+  border: solid;
+  border-style: dashed;
+  border-width: medium;
+  border-color: #8003CA;
+  border-radius: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}/*styles words in content*/
+button.button{
+  border: none;
+  text-decoration: none;
+  color:white;
+  display: block;
+  margin-left: 380px;
+  padding:15px;
+  margin-right: 380px;
+  background-color: #F51C9B;
+} /*all other buttons*/
+.button{
+  text-decoration: none;
+  color:white;
+  display: block;
+  margin-left: 380px;
+  padding:10px;
+  margin-right: 380px;
+  background-color: #F51C9B;
+}/*button from index page to home*/
+.button:hover{
+  background-color: #F44DAF;
+  font-weight: bold;
+  font-size: 20px;
+}/*all buttons*/
+.mainTitle{
+  font-family: "Freehand521 BT", "Verdana", sans-serif;
+  margin-bottom: -20px;
+  margin-top: -14px;
+  padding-top: 14px;
+}/*Title for all pages*/
+.heal{
+  padding: 0px;
+  margin-bottom: 0px;
+} /*subtitle healing hearts..*/
+
+div.footer{
+  background-color: #F51C9B;
+  font-family: "Candara", "Verdana", sans-serif;
+  font-size: 15px;
+  text-align: right;
+  margin-top: 20px;
+  padding: 10px;
+  margin-bottom: 1em;
+}
+
+
+/*Not all common CSS*/
+
+.head { /* Title in every page but index and home*/
+  margin-left: 30px;
+  margipx;
+}
+
+fieldset{
+  border: solid;
+  border-width: medium;
+  border-style: dashed;
+  border-color: #8003CA;
+  margin-left: 140px;
+  margin-right: 140px;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: right;
+}/*form style*/
+
+label{
+  float:left;
+  font-weight: bold;
+}/*label style*/
+
+p{
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 18px;
+}/*paragraph style*/
+
+#grad {
+  background: #AF0067; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#B554EE, #AF0067 50%); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#B554EE, #AF0067 50%); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#B554EE, #AF0067 50%); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#B554EE, #AF0067 50%); /* Standard syntax */
+}/*gradient fill of index.html*/
+/*#grad code source is: http://stackoverflow.com/questions/2869212/css3-gradient-background-set-on-body-doesnt-stretch-but-instead-repeats*/
+
+p.sub{
+  padding-top: 0px;
+  margin-top: 0px;
+  text-align: center;
+}/*subtitle for counsellor match pages*/
+.h2{
+  font-family: "Aharoni", "Verdana", sans-serif;
+}/*changes font*/
+
+/*Source of the following code is:http://www.w3schools.com/howto/howto_css_parallax.asp*/
+.parallax {
+    /* The image used */
+    background-image: url("go-on.jpg");
+
+    /* Set a specific height */
+    min-height: 140px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

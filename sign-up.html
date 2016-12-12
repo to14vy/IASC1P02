@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+  <head>
+  	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+  	<title>Heart Helper: Find Match</title>
+  	<link href="final.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="final.js"></script>
+  </head>
+
+  <body>
+    <div class="list">
+      <ul>
+        <li class="home"><a href="home.html"><img src="logo.png" width="20px"
+          height="20px" alt="heart with a bandaid on it logo" />  Heart Helper Counselling Services </a></li>
+        <li style="float:right"> <a href="about.html">About Us </a></li>
+        <li style="float:right"> <a href="counsel.html">Meet Our Counsellors </a></li>
+        <li style="float:right"> <a href="sign-up.html"> Match Up </a></li>
+      </ul>
+    </div><!--list/top of the page navigation-->
+
+    <div class="content">
+
+      <!--line of code below are from: http://www.w3schools.com/js/tryit.asp?filename=tryjs_date_todatestring-->
+      <p id="date" style="float:right" ></p>
+      <script type="text/javascript" src="final.js"></script> <!--link to javascript-->
+
+      <div class="head">
+        <a href="home.html">
+          <img src="logo.png" style="float:left" width="170px" height="170px" alt="heart with a bandaid on the side of it" />
+        </a><br /><br />
+        <h1 class="mainTitle" style="float:left"> Heart Helper Counselling Services </h1>
+        <h2 class="heal" style="float:left"> Healing Hearts, Mending Lives </h2>
+
+      </div>
+      <div>
+        <h3 style="clear:both"> Fill in the form to get your recommended counsellor! </h3>
+        <fieldset>
+          <label>Who's getting shunned?</label>
+          <input type="radio" value="me" name="shun" />Me (by someone else)
+          <input type="radio" value="other" name="shun" />Someone Else (by me)<br /><br />
+
+          <label> Counsellor Preference: </label>
+          <input type="radio" id="gender1" name="gender" value="0" onclick="value=1" />Male
+          <input type="radio" id="gender2" name="gender" value="0" onclick="value=1" />Female<br /><br />
+
+          <label> Troubled Relationship: </label>
+          <select id="relate">
+            <option value="sister">Sister</option>
+            <option value="brother">Brother</option>
+            <option value="friend"> Friend </option>
+            <option value="special"> Special Someone </option>
+            <option value="other"> Other </option>
+          </select><br /><br />
+
+          <label> Tell us your story: </label>
+          <textarea rows="4" cols="35"></textarea><br /><br />
+
+        </fieldset><br />
+        <button type="button" class="button" id="signedup" onclick="counsel()"> Get Your Counsellor </button>
+      </div>
+      <div class="footer"> IASC 1P02 Final Exam - Tokunbo Oyebolu - Brock University - 12/12/16 <button type="button" onclick="changeScheme()">Change Scheme</button></div>
+    </div>
+  </body>
+
+</html>
